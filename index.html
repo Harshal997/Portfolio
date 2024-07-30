@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Harshal Kher</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div id="change-mode">Dark Mode</div>
+    <div class="logo">Harshal Kher</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contacts</a></li>
+    </ul>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Harshal Kher</div>
+    <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links" onclick="toggleMenu()">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contacts</a></li>
+    </div>
+  </div>
+  </nav>
+  <section id="profile">
+    <div class="profile__text">
+      <p class="section__text__p1">Hello, I am</p>
+      <h1 class="title">Harshal Kher</h1>
+      <p class="section__text__p2">Fullstack Developer</p>
+      <div class="btn-container">
+        <button class="btn color-2" onclick="window.open('./assets/harshal_kher_fe.docx')">Download CV
+        </button>
+        <button class="btn color-1" onclick="location.href='./#contact'">Contact Info
+        </button>
+      </div>
+      <div class="socials-container">
+        <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="window.open('https://www.linkedin.com/in/harshal-kher-45a8b31b4/', '_blank')">
+        <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="window.open('https://github.com/Harshal997', '_blank')">
+        <svg style="cursor:pointer;" width="45" height="45" viewBox="0 0 95 111" fill="none" onclick="window.open('https://leetcode.com/u/HK9997/', '_blank')" xmlns="http://www.w3.org/2000/svg" class="h-full w-auto max-w-none"><path d="M68.0063 83.0664C70.5 80.5764 74.5366 80.5829 77.0223 83.0809C79.508 85.579 79.5015 89.6226 77.0078 92.1127L65.9346 103.17C55.7187 113.371 39.06 113.519 28.6718 103.513C28.6117 103.456 23.9861 98.9201 8.72653 83.957C-1.42528 74.0029 -2.43665 58.0749 7.11648 47.8464L24.9282 28.7745C34.4095 18.6219 51.887 17.5122 62.7275 26.2789L78.9048 39.362C81.6444 41.5776 82.0723 45.5985 79.8606 48.3429C77.6488 51.0873 73.635 51.5159 70.8954 49.3003L54.7182 36.2173C49.0488 31.6325 39.1314 32.2622 34.2394 37.5006L16.4274 56.5727C11.7767 61.5522 12.2861 69.574 17.6456 74.8292C28.851 85.8169 37.4869 94.2846 37.4969 94.2942C42.8977 99.496 51.6304 99.4184 56.9331 94.1234L68.0063 83.0664Z" fill="#FFA116"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M41.1067 72.0014C37.5858 72.0014 34.7314 69.1421 34.7314 65.615C34.7314 62.0879 37.5858 59.2286 41.1067 59.2286H88.1245C91.6454 59.2286 94.4997 62.0879 94.4997 65.615C94.4997 69.1421 91.6454 72.0014 88.1245 72.0014H41.1067Z" fill="#B3B3B3"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M49.9118 2.02335C52.3173 -0.55232 56.3517 -0.686894 58.9228 1.72277C61.494 4.13244 61.6284 8.17385 59.2229 10.7495L16.4276 56.5729C11.7768 61.552 12.2861 69.5738 17.6453 74.8292L37.4088 94.2091C39.9249 96.6764 39.968 100.72 37.505 103.24C35.042 105.761 31.0056 105.804 28.4895 103.337L8.72593 83.9567C-1.42529 74.0021 -2.43665 58.0741 7.1169 47.8463L49.9118 2.02335Z" fill="black"></path></svg>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <h1 class="about__text">About Me</h1>
+    <div class="details-container">
+      <div class="info-container">
+        <div class="info">
+          <h3>Experience</h3>
+          <p>1.5+ Years</p>
+          <p>FullStack Development</p>
+        </div>
+        <div class="info">
+          <h3>Education</h3>
+          <p>Bachelor of Engineering</p>
+          <p>Institute of Engineering</p>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis reprehenderit et laborum, rem, dolore eum quod voluptate exercitationem nobis, nihil esse debitis maxime facere minus sint delectus velit in eos quo officiis explicabo deleniti dignissimos. Eligendi illum libero dolorum cum laboriosam corrupti quidem, reiciendis ea magnam? Nulla, impedit fuga!</p>
+    </div>
+  </section>
+  <section id="experience">
+    <h1 class="experience__text">Experience</h1>
+    <div class="experience-container">
+      <div class="skills">
+        <h1 class="tech__text">Frontend Development</h1>
+        <div class="skills-container">
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>Javascript</h3>
+          </div>
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>HTML</h3>
+          </div>
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>CSS</h3>
+          </div>
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>ReactJS</h3>
+          </div>
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>React Native</h3>
+          </div>
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>Typescript</h3>
+          </div>
+          
+        </div>
+      </div>
+      <div class="skills">
+        <h1 class="tech__text">Backend Development</h1>
+        <div class="skills-container">
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>Java</h3>
+          </div>
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>Springboot</h3>
+          </div>
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>AWS</h3>
+          </div>
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>NodeJS</h3>
+          </div>
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>SQL</h3>
+          </div>
+          <div class="skill-container">
+            <img class="icon" src="./assets/checkmark.png" alt="checkmark">
+            <h3>MongoDB</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <h1 class="projects__text">Projects</h1>
+    <div class="project-container">
+      <div class="project">
+        <img class="project-image" src="https://i.pinimg.com/736x/6d/06/78/6d0678e47c04db55123436d60937ec93.jpg" alt="Recip">
+        <h1 class="project-title">Recip</h1>
+        <div class="btn-container">
+          <button class="btn color-1" onclick="window.open('https://github.com/Harshal997/Recip-App', '_blank')">Github</button>
+          <button class="btn color-2" onclick="window.open('https://recipapp.vercel.app/', '_blank')">Live</button>
+        </div>
+      </div>
+      <div class="project">
+        <img class="project-image" src="https://1000logos.net/wp-content/uploads/2023/05/Wordle-Emblem.png" alt="Wordle">
+        <h1 class="project-title">Wordle</h1>
+        <div class="btn-container">
+          <button class="btn color-1" onclick="window.open('https://github.com/Harshal997/wordle-clone', '_blank')">Github</button>
+          <button class="btn color-2" onclick="window.open('https://wordle-clone-gules.vercel.app/', '_blank')">Live</button>
+        </div>
+      </div>
+      <div class="project">
+        <img class="project-image" src="https://www.vhv.rs/dpng/d/270-2702949_transparent-cruise-ship-icon-png-ship-images-black.png" alt="XCruise">
+        <h1 class="project-title">XCruise</h1>
+        <div class="btn-container">
+          <button class="btn color-1" style="background-color: #6b4fbb;" onclick="window.open('https://gitlab.crio.do/COHORT_ME_FE_BUILDOUT_XCRUISE_ENROLL_1709031360235/harshalkher27-ME_FE_BUILDOUT_XCRUISE', '_blank')">Gitlab</button>
+          <button class="btn color-2" >Live</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact-me">
+      <h1 class="contact__text">Contact Me</h1>
+      <div class="contacts-container">
+        <div class="contact-container">
+          <img class="icon" src="./assets/email.png" alt="">
+          <a href="mailto:harshalkher27@gmail.com">Email</a>
+        </div>
+        <div class="contact-container">
+          <img class="icon" src="./assets/linkedin.png" alt="">
+          <a href="https://www.linkedin.com/in/harshal-kher-45a8b31b4/">Linkedin</a>
+        </div>
+      </div>
+    </div>
+    <div id="desktop-bottom-nav">
+      <div class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contacts</a></li>
+      </div>
+      <p>Copyright © 2024 Harshal Kher. All Rights Reserved.</p>
+    </div>
+  </section>
+  <script src="script.js" async defer></script>
+</body>
+
+</html>
