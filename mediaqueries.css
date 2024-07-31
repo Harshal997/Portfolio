@@ -220,7 +220,7 @@
   body {
     font-family: "Poppins", sans-serif;
     position: relative;
-    left: 6em;
+    left: 5em;
     text-align: center;
   }
   #desktop-nav {
@@ -324,7 +324,7 @@
   }
 
   #experience {
-    margin-top: 2em;
+    margin-top: 5em;
     padding-top: 4vh;
     height: 96vh;
     display: flex;
@@ -333,7 +333,7 @@
   }
 
   #projects {
-    margin-top: 2em;
+    margin-top: 5em;
     height: 96vh;
     padding-top: 4vh;
     display: flex;
