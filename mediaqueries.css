@@ -219,7 +219,8 @@
 @media screen and (max-width: 480px){
   body {
     font-family: "Poppins", sans-serif;
-    /* left: 6em; */
+    position: relative;
+    left: 6em;
     text-align: center;
   }
   #desktop-nav {
@@ -320,5 +321,23 @@
   .contact__text {
     font-size: 1.5rem;
     font-weight: 600;
+  }
+
+  #experience {
+    margin-top: 2em;
+    padding-top: 4vh;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #projects {
+    margin-top: 2em;
+    height: 96vh;
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
